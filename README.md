@@ -4,6 +4,8 @@
 
 This project analyzes posts and comments from the Singapore subreddit to surface public opinions, trending topics, and sentiment patterns. Raw social media text is processed through a structured multi-stage pipeline — from scraping to search and recommendation.
 
+Note: Many files used during processing are not included in the repository as they are very large. Please forgive any file structure that is wrong in the jupyter notebooks. 
+
 ## Project Structure
 
 ```
