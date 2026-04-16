@@ -27,29 +27,8 @@ CS5246Project/
 
 ## Setup
 
-### Prerequisites
-
-- Python 3.9+
-- [uv](https://github.com/astral-sh/uv) (recommended) or `pip`
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ChaoChienHung/CS5246-Text-Mining.git
-   cd CS5246-Text-Mining
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install pandas requests praw torch transformers python-dotenv
-   ```
-   Or with `uv`:
-   ```bash
-   uv sync
-   ```
-
-3. For incremental scraping via PRAW, create a `.env` file in the root directory:
+### Special Instructions
+1. For incremental scraping via PRAW, create a `.env` file in the root directory:
    ```env
    REDDIT_CLIENT_ID=your_client_id
    REDDIT_CLIENT_SECRET=your_client_secret
