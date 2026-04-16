@@ -26,6 +26,7 @@ CS5246Project/
 ```
 
 ## Setup
+Note: Data scraped are too big so we did not include the files. Following scraping steps to reproduce. 
 
 ### Special Instructions
 1. For incremental scraping via PRAW, create a `.env` file in the root directory:
