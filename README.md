@@ -8,14 +8,10 @@ This project analyzes posts and comments from the Singapore subreddit to surface
 
 ```
 CS5246Project/
-├── data/
-│   ├── inverted_index/       # TF-IDF inverted indices (JSON)
-│   ├── models/               # Trained TF-IDF, BM25, and BERT models
-│   ├── vector_database/      # TF-IDF, BM25, and BERT matrices/embeddings
-│   ├── PostVault.csv
-│   ├── CommentVault.csv
-│   └── raw_data/
-├── sentiment_plots/          # Emotion plots and dashboard scripts
+├── dashboard-ui/          # Code for the dashboard UI
+├── data-scrape/          # Code for scraping Reddit Data
+├── sentiment_plots/          # Sentiment Distribution Scripts
+├── utilities/                # Helper scripts and dictionaries
 ├── Stage_0_Introduction.ipynb
 ├── Stage_1_Data_Collection_and_Data_Cleaning.ipynb
 ├── Stage_2_POS_and_NER_Tagging.ipynb
@@ -26,7 +22,7 @@ CS5246Project/
 ├── Stage_7_Sentiment_Analysis.ipynb
 ├── Stage_8_Clustering_and_Visualization.ipynb
 ├── Stage_9_Document_Search.ipynb
-└── utilities/                # Helper scripts and dictionaries
+└── Step_Appendix_1_Sentiment Labelling.ipynb    # Evaluation of 6 models for Sentiment Labelling
 ```
 
 ## Setup
